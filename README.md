@@ -3,7 +3,7 @@ EngineCrawler 主要用于抓取国内外一些主流搜索引擎搜索返回的
 # Dependencies
 `pip -r install requirements.txt`
 # Usage:
-`usage: EngineCrawler.py [-h] -r RULE -p PAGE [-e ENGINES] [-o OUTPUT]
+```usage: EngineCrawler.py [-h] -r RULE -p PAGE [-e ENGINES] [-o OUTPUT]
 
 OPTIONS:
   -h, --help            show this help message and exit
@@ -16,6 +16,6 @@ OPTIONS:
 
 Example: python EngineCrawler.py -e baidu,yahoo -r 'inurl:php?id=1' -p 10 -o
 urls.txt
-`
+```
 # Screenshot:
 ![avatar](https://github.com/heroanswer/EngineCrawler/blob/master/screenshot.png)
